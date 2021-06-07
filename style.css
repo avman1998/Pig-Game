@@ -1,0 +1,129 @@
+body {
+  height: 100hv;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pBox1 {
+  color: white;
+  height: 400px;
+  width: 350px;
+  border: 2px solid rgb(172, 162, 162);
+  position: relative;
+  top: 150px;
+}
+
+.pBox2 {
+  color: white;
+  height: 400px;
+  width: 350px;
+  border: 2px solid rgb(172, 162, 162);
+  position: relative;
+  top: 150px;
+}
+
+.playerHead1 {
+  font-size: 35px;
+  padding-left: 110px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+.playerHead2 {
+  font-size: 35px;
+  padding-left: 110px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+.currentBox0 {
+  width: 160px;
+  height: 90px;
+  background-color: white;
+  color: black;
+  position: relative;
+  left: 90px;
+  top: 25px;
+  font-size: 25px;
+
+  border-radius: 7%;
+}
+.currentBox1 {
+  width: 160px;
+  height: 90px;
+  background-color: white;
+  color: black;
+  position: relative;
+  left: 95px;
+  top: -16px;
+  font-size: 25px;
+
+  border-radius: 7%;
+}
+.currentLabel {
+  position: relative;
+  top: 10px;
+  left: 42px;
+  font-weight: bold;
+}
+
+.currentScore_0 {
+  text-align: center;
+}
+
+.currentScore_1 {
+  text-align: center;
+}
+
+.diceImage {
+  position: absolute;
+
+  top: 295px;
+}
+
+.NewGameButton {
+  position: absolute;
+
+  top: 195px;
+  height: 30px;
+  width: 120px;
+  font-weight: bold;
+}
+.RollDiceButton {
+  position: absolute;
+
+  top: 412px;
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+}
+
+.HoldButton {
+  position: absolute;
+
+  top: 470px;
+  height: 30px;
+  width: 80px;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+.PlayerOneScore {
+  font-size: 52px;
+  text-align: center;
+}
+.PlayerTwoScore {
+  font-size: 52px;
+  text-align: center;
+}
+
+.activePlayer {
+  background-color: cornflowerblue;
+}
+.winnerColor {
+  background-color: darkgreen;
+}
