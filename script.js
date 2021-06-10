@@ -96,6 +96,6 @@ NewGameButton.addEventListener("click", function () {
   Playerhead2.textContent = "Player 2";
   Box2.classList.remove("activePlayer");
   Box1.classList.add("activePlayer");
-  Box2.classList.add("winnerColor");
-  Box1.classList.add("winnerColor");
+  Box2.classList.remove("winnerColor");
+  Box1.classList.remove("winnerColor");
 });
