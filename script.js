@@ -87,6 +87,7 @@ NewGameButton.addEventListener("click", function () {
   cs = 0;
   PS_0 = 0;
   PS_1 = 0;
+  playerNumber = 0;
   currentScore_0.textContent = cs;
   currentScore_1.textContent = cs;
   PlayerOneScore.textContent = PS_0;
@@ -95,4 +96,6 @@ NewGameButton.addEventListener("click", function () {
   Playerhead2.textContent = "Player 2";
   Box2.classList.remove("activePlayer");
   Box1.classList.add("activePlayer");
+  Box2.classList.add("winnerColor");
+  Box1.classList.add("winnerColor");
 });
